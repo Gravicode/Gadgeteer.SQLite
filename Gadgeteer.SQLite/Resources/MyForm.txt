@@ -1,0 +1,8 @@
+<Glide Version="1.0.7">
+  <Window Name="instance115" Width="800" Height="480" BackColor="c2d6d6">
+    <DataGrid Name="dataGrid" X="24" Y="76" Width="750" Height="300" Alpha="255" Font="4" RowCount="10" RowHeight="30" Draggable="True" TappableCells="True" SortableHeaders="True" ShowHeaders="True" ShowScrollbar="True" ScrollbarWidth="4" HeadersBackColor="707476" HeadersFontColor="FFFFFF" ItemsBackColor="FFFFFF" ItemsAltBackColor="F4F4F4" ItemsFontColor="000000" SelectedItemBackColor="FFF299" SelectedItemFontColor="000000" GridColor="BFC5C9" ScrollbarBackColor="C0C0C0" ScrollbarScrubberColor="000000"/>
+    <TextBlock Name="instance995" X="26" Y="6" Width="700" Height="28" Alpha="255" Text="SQLite Gadgeteer Sample" TextAlign="Left" TextVerticalAlign="Top" Font="6" FontColor="334d4d" BackColor="000000" ShowBackColor="False"/>
+    <TextBlock Name="instance2414" X="27" Y="36" Width="700" Height="35" Alpha="255" Text="Every 3 seconds, device will get value from sensor and push it to SQLite database on RAM / SD Card" TextAlign="Left" TextVerticalAlign="Top" Font="5" FontColor="0" BackColor="000000" ShowBackColor="False"/>
+    <Button Name="btnReset" X="663" Y="389" Width="109" Height="50" Alpha="255" Text="Reset" Font="5" FontColor="000000" DisabledFontColor="808080" TintColor="000000" TintAmount="0"/>
+  </Window>
+</Glide>

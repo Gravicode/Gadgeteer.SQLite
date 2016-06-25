@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GTM.GHIElectronics.DisplayNHVN</name>
+    </assembly>
+    <members>
+        <member name="T:Gadgeteer.Modules.GHIElectronics.DisplayNHVN">
+            <summary>A DisplayNHVN module for Microsoft .NET Gadgeteer.</summary>
+        </member>
+        <member name="M:Gadgeteer.Modules.GHIElectronics.DisplayNHVN.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>Constructs a new instance.</summary>
+            <param name="rSocketNumber">The mainboard socket that has the display's R socket connected to it.</param>
+            <param name="gSocketNumber">The mainboard socket that has the display's G socket connected to it.</param>
+            <param name="bSocketNumber">The mainboard socket that has the display's B socket connected to it.</param>
+        </member>
+        <member name="M:Gadgeteer.Modules.GHIElectronics.DisplayNHVN.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>Constructs a new instance.</summary>
+            <param name="rSocketNumber">The mainboard socket that has the display's R socket connected to it.</param>
+            <param name="gSocketNumber">The mainboard socket that has the display's G socket connected to it.</param>
+            <param name="bSocketNumber">The mainboard socket that has the display's B socket connected to it.</param>
+            <param name="tSocketNumber">The mainboard socket that has the display's T socket connected to it.</param>
+            <param name="iSocketNumber">The mainboard socket that has the display's I socket connected to it.</param>
+        </member>
+        <member name="M:Gadgeteer.Modules.GHIElectronics.DisplayNHVN.Paint(Microsoft.SPOT.Bitmap,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>Renders display data on the display device.</summary>
+            <param name="bitmap">The bitmap object to render on the display.</param>
+            <param name="x">The start x coordinate of the dirty area.</param>
+            <param name="y">The start y coordinate of the dirty area.</param>
+            <param name="width">The width of the dirty area.</param>
+            <param name="height">The height of the dirty area.</param>
+        </member>
+        <member name="M:Gadgeteer.Modules.GHIElectronics.DisplayNHVN.Configure7InchDisplay">
+            <summary>
+            Configures the module to use the 7" display.
+            </summary>
+        </member>
+        <member name="M:Gadgeteer.Modules.GHIElectronics.DisplayNHVN.Configure43InchDisplay">
+            <summary>
+            Configures the module to use the 4.3" display.
+            </summary>
+        </member>
+        <member name="E:Gadgeteer.Modules.GHIElectronics.DisplayNHVN.CapacitiveScreenPressed">
+            <summary>Raised when the module detects a capacitive press.</summary>
+        </member>
+        <member name="E:Gadgeteer.Modules.GHIElectronics.DisplayNHVN.CapacitiveScreenReleased">
+            <summary>Raised when the module detects a capacitive release.</summary>
+        </member>
+        <member name="P:Gadgeteer.Modules.GHIElectronics.DisplayNHVN.BacklightEnabled">
+            <summary>Whether or not the backlight is enabled.</summary>
+        </member>
+        <member name="T:Gadgeteer.Modules.GHIElectronics.DisplayNHVN.CapacitiveTouchEventHandler">
+            <summary>The delegate that is used to handle the capacitive touch events.</summary>
+            <param name="sender">The DisplayNHVN object that raised the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="T:Gadgeteer.Modules.GHIElectronics.DisplayNHVN.TouchEventArgs">
+            <summary>
+            Event arguments for the capacitive touch events.
+            </summary>
+        </member>
+        <member name="P:Gadgeteer.Modules.GHIElectronics.DisplayNHVN.TouchEventArgs.X">
+            <summary>
+            The X coordinate of the touch event.
+            </summary>
+        </member>
+        <member name="P:Gadgeteer.Modules.GHIElectronics.DisplayNHVN.TouchEventArgs.Y">
+            <summary>
+            The Y coordinate of the touch event.
+            </summary>
+        </member>
+    </members>
+</doc>
